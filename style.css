@@ -1,14 +1,14 @@
-/* #591B98 #E5245E #E95E10;*/
 
 body{
   background-color: white ;
   margin: 88px 80px 137px;
   font-family: "Open Sans", serif;
+  font-weight: bold;
 }
-main div img {
+img {
   height: 375px;
   object-fit: cover; 
-  margin-top: 44px;
+  margin-top: 44px; 
 }
 img{
   border-radius: 28px;
@@ -17,25 +17,25 @@ img{
 
 header{
   color: #E1624F;
-  font-weight: bold;
   font-size: 16px;
 }
 
 h1{
   font-size: 36px;
-  font-weight: bold;
+ 
 }
 h2{
   font-size: 32px;
-  font-weight: bold;
+
 }
 h3{
   font-size: 28px;
-  font-weight: bold;
+
 }
 #description{
   font-style: italic;
   text-align: center;
+  font-weight: normal;
 }
 .divider {
   width: 100%;
@@ -46,9 +46,25 @@ h3{
 p{
   color: #333333;
   font-size: 16px;
+  font-weight: normal;
 }
 ul li::marker {
   color: #333333;
 }
-
-
+#historia{
+  color: #591B98 ;
+}
+#familias{
+  color: #E5245E;
+}
+#orcamento{
+  color:#E95E10;
+}
+div + p{
+  text-align: center;
+}
+footer{
+  text-align: center;
+  font-family: "Alice", serif;
+  font-weight: normal;
+}
